@@ -7,8 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // icons: {
-  //   icon: "/favicon-32x32.png",},
+  icons:  "/favicon.ico",
   title: "Crescendo Academy - Unlock Your Musical Potential",
   description: "Discover the joy of music at Crescendo Academy, where passion meets proficiency. Join us to explore your musical journey and unlock your true potential.",
   keywords: "music, school, academy, education, passion, proficiency",
