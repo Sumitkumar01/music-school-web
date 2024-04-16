@@ -16,7 +16,7 @@ function page() {
           <p className='text-lg text-justify dark:text-white mb-2'>Our aim is to empower you with the knowledge and tools necessary to unleash your creativity and elevate your productions to new heights. Explore the theory, experiment with different approaches, and embark on an exciting journey of sonic exploration.</p>
           <p className='text-lg text-justify dark:text-white mb-2'>Unlock the secrets of music production theory and unleash your creative potential today!</p>
           <div className='flex justify-center mt-10 '>
-            <Image src={"/courses/Music_Production.avif"} className={"rounded-lg border-2 border-gray-300 p-2 shadow-sm"} alt="Music Production" width={500} height={500} />
+            <Image src={"/courses/Music_Production.avif"} className={"rounded-lg border-2 border-gray-300 p-2 shadow-sm z-10"} alt="Music Production" width={500} height={500} />
 
           </div>
         </div>
