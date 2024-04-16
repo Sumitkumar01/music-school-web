@@ -70,3 +70,10 @@ function page() {
 }
 
 export default page
+
+export function generateMetadata() {
+  return {
+    title: 'Songwriting Theory',
+    description: 'Learn the essentials of songwriting theory to create compelling and memorable songs.',
+  }
+}

@@ -27,3 +27,10 @@ function page() {
 }
 
 export default page
+
+export function generateMetadata() {
+  return {
+    title: "Music Production Theory",
+    description: "Learn the fundamentals of music production theory to unlock your creative potential and enhance your musical compositions.",
+  };
+}

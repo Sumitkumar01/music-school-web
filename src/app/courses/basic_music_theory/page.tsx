@@ -86,3 +86,10 @@ function all_course() {
 }
 
 export default all_course;
+
+export function generateMetadata() {
+  return {
+    title: "Music Theory",
+    description: "A comprehensive guide to music theory",
+  };
+}
