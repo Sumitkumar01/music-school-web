@@ -17,14 +17,14 @@ interface Course {
 function FeaturedCourses() {
     const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
     return (
-        <div className='py-12 bg-gray-900'>
+        <div className='lg:py-12 py-6 bg-gray-900'>
             <div>
                 <div className='text-center'>
                     <h2 className='text-base text-teal-600 font-semibold tracking-wide uppercase'>Featured courses</h2>
                     <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl capitalize'>learn with the best</p>
                 </div>
             </div>
-            <div className='mt-10'>
+            <div className='mt-10 max-w-6xl mx-auto px-4'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
                 {featuredCourses.map((course:Course)=>(
                     <div className='flex justify-center' key={course.id}>
@@ -41,7 +41,7 @@ function FeaturedCourses() {
                 ))}
                 </div>
             </div>
-            <div className='mt-20 text-center'>
+            <div className='mt-10 text-center'>
                 <Link href="/courses/all_courses">
                     <Button>
                         View all courses
